@@ -1,0 +1,21 @@
+.calc {
+  max-width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calc__container {
+  width: 50%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.calc__container_disabled {
+  width: 50%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}

@@ -1,0 +1,38 @@
+.cont {
+  max-width: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cont__icon {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.cont__text__block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cont__uppertitle {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.3rem;
+  text-align: center;
+  color: #5D5FEF;
+  margin-top: 1.2rem;
+}
+
+.cont__text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.7rem;
+  line-height: 15px;
+  text-align: center;
+  color: #6B7280;
+  margin-top: .6rem;
+}

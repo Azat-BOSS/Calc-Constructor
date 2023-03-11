@@ -1,0 +1,9 @@
+.conMod {
+  width: 45rem;
+  height: 79rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 2rem;
+}

@@ -1,0 +1,6 @@
+export {NumBtns} from "./NumBtns/NumBtns"
+export {SignsBtns} from "./SignsBtns/SignsBtns"
+export {EqualBtns} from "./EqualBtns/EqualBtns"
+export {ScreenComp} from "./ScreenComp/ScreenComp"
+export {SwitchButton} from "./SwitchButtons/SwitchButton"
+export {RTimeComp} from "./RTimeComp/RTimeComp"

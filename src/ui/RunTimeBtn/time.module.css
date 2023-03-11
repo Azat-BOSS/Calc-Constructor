@@ -1,0 +1,55 @@
+.rTimeBtn {
+  width: 15rem;
+  height: 4.5rem;
+  border-radius: 5px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 1rem;
+  padding-top: .3rem;
+  transition: .4s ease all;
+}
+
+.rTimeBtn:before {
+  content: "";
+  display: block;
+  background-image: url("../../assets/icons/eye.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.rTimeBtn_active {
+  width: 15rem;
+  height: 4.5rem;
+  border-radius: 5px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 1rem;
+  padding-top: .3rem;
+  transition: .4s ease all;
+}
+
+.rTimeBtn_active:before {
+  content: "";
+  display: block;
+  background-image: url("../../assets/icons/eye_active.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 2.4rem;
+  height: 2.4rem;
+}

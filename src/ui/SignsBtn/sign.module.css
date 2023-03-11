@@ -1,0 +1,28 @@
+.signBtn {
+  width: 8.5rem;
+  height: 7rem;
+  background: #ffffff;
+  border: 2px solid #e2e3e5;
+  border-radius: 6px;
+  transition: .4 ease all;
+  cursor: move;
+}
+
+.signBtn_active {
+  width: 8.5rem;
+  height: 7rem;
+  background: #ffffff;
+  border-radius: 6px;
+  border: 2px solid #e2e3e5;
+  transition: .4 ease all;
+  cursor: pointer
+}
+
+.signBtn_active:hover {
+  border: 2px solid #5d5fef;
+}
+
+.signBtn_active:hover:focus {
+  background-color: #5d5fef;
+  color: white;
+}

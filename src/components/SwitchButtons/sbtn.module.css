@@ -1,0 +1,41 @@
+.sBtn {
+  display: flex;
+  background: #F3F4F6;
+  border-radius: 6px;
+  padding: .3rem;
+  position: relative;
+  width: fit-content;
+}
+
+.sBtn::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 15rem;
+  height: 4.5rem;
+  border-radius: 5px;
+  background: white;
+  transform: translateX(0);
+  transition: .4s ease all;
+}
+
+.sBtn_active {
+  display: flex;
+  background: #F3F4F6;
+  border-radius: 6px;
+  padding: .3rem;
+  position: relative;
+  width: fit-content;
+}
+
+.sBtn_active:before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 17rem;
+  height: 4.5rem;
+  border-radius: 5px;
+  background: white;
+  transform: translateX(15rem);
+  transition: .4s ease all;
+}
